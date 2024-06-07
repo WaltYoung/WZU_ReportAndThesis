@@ -30,22 +30,6 @@
     \includegraphics[scale=0.8]{}
     \caption{图名}
 \end{figure}
-
-\textbf{加粗字体}
-\begin{itemize}
-    \item[·] a
-    \item[·] b
-\end{itemize}
-
-\begin{sloppypar}
-针对特定区域设置自动换行，两端对齐
-\end{sloppypar}
-
-信息\cite{bennett1993teleporting} % \cite引用文献项
-
-$\{ E_1, E_2, E_3, \dots , E_n , E_{n+1}\}$ % 行内数学公式 {𝐸1, 𝐸2, 𝐸3, ⋯ , 𝐸𝑛}
-
-$$ \{ E_1, E_2, E_3, \dots , E_n , E_{n+1}\} $$ % 居中数学公式 {𝐸1, 𝐸2, 𝐸3, ⋯ , 𝐸𝑛}
 ```
 
 加粗
