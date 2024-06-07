@@ -1,0 +1,110 @@
+\documentclass[UTF8,12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,float,tabularx}
+% 这里是导言区
+\author{WaltYoung}
+\date{\today}
+\linespread{1.5}
+\begin{document}
+\vspace*{4\baselineskip}
+\centerline{\fontsize{36}{40}\selectfont\kaishu\makebox[4em][s]{温州大学}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.8]{温大LOGO.png}
+\end{figure}
+\vspace*{2\baselineskip}
+\centerline{\fontsize{24}{30}\selectfont\heiti{}大报告}
+\vspace*{4\baselineskip}
+\centerline
+{
+\fontsize{14}{14}\selectfont%
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{c@{~~}c}
+\makebox[4em][s]{题目}:&\underline{\makebox[18em][c]{Title}}\\
+\makebox[4em][s]{姓名}:&\underline{\makebox[18em][c]{WaltYoung}}\\
+\makebox[4em][s]{学号}:&\underline{\makebox[18em][c]{ID numben}}\\
+\makebox[4em][s]{班级}:&\underline{\makebox[18em][c]{Class}}\\
+\makebox[4em][s]{任课老师}:&\underline{\makebox[18em][c]{Teacher}}\\
+\end{tabular}
+}
+% \maketitle
+\clearpage
+\tableofcontents
+\clearpage
+\section{摘要}
+
+\paragraph{关键词}
+\section{引言}
+
+\section{概述}
+
+\section{国内外现状}
+
+\subsection{A}
+
+\subsubsection{B}
+
+% \begin{table}[H]
+%     \centering
+%     \caption{表名}
+%     \begin{tabularx}{0.8\textwidth}{|X|X|X|X|}
+%     \hline
+%     A & B & C & D\\
+%     \hline
+%     1 & 2 & 3 & 4 \\
+%     \hline
+%     \end{tabularx}
+% \end{table}
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.8]{}
+%     \caption{图名}
+% \end{figure}
+
+% \textbf{加粗字体}
+% \begin{itemize}
+%     \item[·] a
+%     \item[·] b
+% \end{itemize}
+
+% \begin{sloppypar}
+% 针对特定区域设置自动换行，两端对齐
+% \end{sloppypar}
+
+% \cite{索引} % 引用文献项，索引为\bibitem{}括号内的文字
+
+% $\{ E_1, E_2, E_3, \dots , E_n , E_{n+1}\}$ % 行内数学公式 {𝐸1, 𝐸2, 𝐸3, ⋯ , 𝐸𝑛}
+
+% $$ \{ E_1, E_2, E_3, \dots , E_n , E_{n+1}\} $$ % 居中数学公式 {𝐸1, 𝐸2, 𝐸3, ⋯ , 𝐸𝑛}
+
+\section{参考文献}
+\noindent{[1]}
+
+\noindent{[2]}
+
+\noindent{[3]}
+
+\noindent{[4]}
+
+\noindent{[5]}
+
+\noindent{[6]}
+
+\noindent{[7]}
+
+% 其他参考文献的语法
+% \begin{thebibliography}{99}
+%     \bibitem{a}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{b}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{c}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{d}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{e}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{f}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{g}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{h}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{i}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{j}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{k}作者. \emph{文献}[M]. 地点:出版社,年份.
+%     \bibitem{l}作者. \emph{文献}[M]. 地点:出版社,年份.
+% \end{thebibliography}
+\end{document}

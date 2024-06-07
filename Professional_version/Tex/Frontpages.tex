@@ -1,0 +1,91 @@
+%---------------------------------------------------------------------------%
+%->> Titlepage information
+%---------------------------------------------------------------------------%
+%-
+%\includepdfmerge{[pdfname],[a-b]｝//pdfname 是pdf的名字，放当前目录下，a-b是引用的页数。
+%
+%\includepdfmerge{lwfmmm.pdf,1}
+% \includepdfmerge{fengmian.pdf,1-2}
+%-> Chinese titlepage
+%-
+\confidential{}% confidential level
+\schoollogo{scale=0.8}{温大LOGO}% university logo
+%\title{在光学腔中自旋压缩态产生的研究}% 
+\thesistype{大报告}
+\title[温州大学本科学位论文或报告]{标题}
+\author{WaltYoung}% name of author
+\advisor{Teacher}% supervisor
+\advisorsec{}% co-supervisor
+\degree{本科}% degree
+\degreetype{工学}% degree type
+\major{major}% major
+\institute{温州大学}% institute of author
+\chinesedate{\today}% customized date, 6 for summer and 12 for winter graduation
+%-
+%-> English titlepage
+%-
+\englishtitle{\LaTeX{} Thesis Template\\ of \\ The University of Chinese Academy of Sciences {$~^{\pi}\pi^{\pi}$}}
+\englishauthor{Huangrui Mo}
+\englishadvisor{Supervisor: Professor Qingquan Liu}
+\englishdegree{Master of Natural Science}% degree type <Doctor|Master> of <Philosophy|Natural Science|Engineering>
+\englishthesistype{thesis}% thesis type <thesis|dissertation>
+\englishmajor{Fluid Mechanics}% major
+\englishinstitute{Institute of Mechanics, Chinese Academy of Sciences}
+\englishdate{June, 2024}% customized date
+%-
+%-> Create titlepages
+%-
+\maketitle
+%\makeenglishtitle
+%-
+%-> Author's declaration
+%-
+% \makedeclaration
+%-
+%-> Chinese abstract
+%-
+
+\chapter[摘要]{标题}
+\vbox{}
+
+\section*{\qquad\qquad\qquad\qquad\qquad\qquad\quad\  摘\quad 要}
+\vbox{}
+%\chaptermark{摘\quad 要}
+
+\setcounter{page}{1}% set page number
+\pagenumbering{Roman}% set large roman
+
+{
+	\par
+	\zihao{4}
+	\linespread{1.5}\selectfont
+	abstract
+	\par
+
+\vbox{}
+\keywords{keywords}
+}
+%-
+%-> English abstract
+%-
+
+\chapter[Abstract]{\linespread{1.5}\selectfont 标题译文}
+
+\vbox{}
+\section*{\qquad\qquad\qquad\qquad\qquad\quad\quad ABSTRACT}
+\vbox{}
+%\chaptermark{Abstract}
+%\vskip 1cm
+
+{
+	\par
+	\zihao{4}
+	\linespread{1.5}\selectfont
+	摘要译文
+	\par
+
+\vbox{}
+%\vskip 1cm
+\englishkeywords{\linespread{1.5}\selectfont 关键词}
+}
+%---------------------------------------------------------------------------%
